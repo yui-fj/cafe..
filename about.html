@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="おしゃれなカフェを紹介するサイトです">
+    <title>カフェる</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-line">
+            <a href="index.html"><img src="img/カフェロゴ.png" alt=""></a>
+        </div>
+        <nav id="header-nav">
+          <ul id="header-item">
+             <li id="header-list"><a href="index.html">home</a></li>
+             <li id="header-list"><a href="about.html">about</a></li>
+             <li id="header-list"><a href="photo.html">photo</a></li>
+          </ul> 
+        </nav>
+    </header>
+
+    <main id="about-main" class="wrapper">
+        <h1 id="about" class="img">About</h1>
+        <nav id="about-nav" class="img">
+            <li id="about-list1">このサイトについて</li>
+            <li id="about-list2">自己紹介</li>
+        </nav>
+        <p id="about-ex" class="img">
+            このサイトは個人経営のカフェや喫茶店をアーカイブとして残したいのと同時にたくさんの若者にチェーン店では味わえないようの
+            空間を写真を通して伝えていき少しでも多くの人に興味を持ってもらえるようなものになります。
+            <br>
+            今は福岡県内のみでの紹介と言う風に考えております。今後は他の県も増やしていく予定です
+        </p>
+
+        <article id="article wrapper">
+            <h2 id="profile" class="img">Profile</h2>
+            <nav id="profile-nav">
+                <img id="profile-pc" class="img" src="img/aboutpage.png" alt="profile">
+                <ul id="profile-list">
+                    <li id="profile-item" class="img">2003年、福岡県生まれ。
+                        <br>
+                        4歳から10歳まで水泳、6歳から19歳まで空手、10歳から15歳までバスケを習っていた。
+                        <br>
+                        趣味は写真を撮りにくこと。
+                        <br>
+                        2022年の10月ごろから本格的にカメラを持ち始めて、主に風景写真を撮っている。
+                        <br>
+                        いつも使っているカメラはα7 III 
+                        
+                    </li>
+    
+                    <li id="profile-item-logo" class="img"><a href="https://www.instagram.com/y_xxph/"><img id="instagram-logo" src="img/インスタグラムのシンプルなロゴのアイコン 2のコピー.png" alt="Instagram"></a></li>
+                </ul>
+            </nav>
+        </article>
+    </main>
+
+    <footer>
+        <p>©2023</p>
+    </footer>
+
+
+
+    
+    <!-- <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: false, distance: "100px", duration: 2000 });
+        
+        ScrollReveal().reveal('#about-main', { delay: 200, origin: "bottom"});
+        ScrollReveal().reveal('#about-nav li', { delay: 250, origin: "bottom", interval:200});
+        ScrollReveal().reveal('#about-ex', { delay: 400, origin: "bottom"});
+        ScrollReveal().reveal('#profile', { delay: 500, origin: "bottom"});
+        ScrollReveal().reveal('#profile-pc', { delay: 400, origin: "left"});
+        ScrollReveal().reveal('#profile-list li', { delay: 400, origin: "bottom", interval:150});
+    </script> -->
+    
+
+</body>
+</html>
